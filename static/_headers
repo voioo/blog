@@ -6,6 +6,6 @@ https://blog.voioo.cz/*
     X-Content-Type-Options: nosniff
     Referrer-Policy: no-referrer
     Permissions-Policy: document-domain=()
-    Content-Security-Policy: script-src 'strict-dynamic' 'unsafe-inline' http: https:; frame-ancestors 'none'; object-src 'none'; base-uri 'none';
+    Content-Security-Policy: default-src 'none'; connect-src 'self'; font-src 'self'; img-src 'self'; script-src 'strict-dynamic' 'unsafe-inline' http: https:; style-src 'self';
   X-XSS-Protection: 1; mode=block;
   Access-Control-Allow-Origin: https://blog.voioo.cz/
