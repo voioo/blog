@@ -1,0 +1,10 @@
+https://blog-6wn.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://blog.voioo.cz/*
+  X-Frame-Options: DENY
+    X-Content-Type-Options: nosniff
+    Referrer-Policy: no-referrer
+    Permissions-Policy: document-domain=()
+    Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+  Access-Control-Allow-Origin: https://blog.voioo.cz/
