@@ -33,7 +33,7 @@ paginate = 5
   showLastUpdated = false
 
   # set a custom favicon (default is a `themeColor` square)
-  # favicon = "favicon.ico"
+  favicon = "favicon.ico"
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"
@@ -47,36 +47,26 @@ paginate = 5
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
-  site = ""
+  creator = "imthelazydevops"
+  site = "blog.voioo.cz"
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "The lazy SRE blog - Voislav Vasiljevski"
     subtitle = "A simple, retro theme for Hugo"
-    owner = ""
-    keywords = ""
-    copyright = ""
+    owner = "Voislav Vasiljevski"
+    keywords = "SRE,devops,linux,tech,tutorials"
+    copyright = "Voislav Vasiljevski - 2021"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
     missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    missingBackButtonLabel = "Go back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "$ cd /home/"
       logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
 
