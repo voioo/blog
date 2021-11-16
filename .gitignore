@@ -1,0 +1,8 @@
+## OS Files
+# OSX
+.DS_Store
+
+# Generated files by hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
