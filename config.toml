@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://blog.voioo.cz/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
