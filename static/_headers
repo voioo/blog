@@ -1,11 +1,11 @@
 https://blog-6wn.pages.dev/*
   X-Robots-Tag: noindex
 
-https://blog.voioo.cz/*
+https://thelazysre.com/*
   X-Frame-Options: DENY
     X-Content-Type-Options: nosniff
     Referrer-Policy: no-referrer
     Permissions-Policy: document-domain=()
     Content-Security-Policy: default-src 'none'; connect-src 'self'; font-src 'self'; img-src 'self'; script-src 'strict-dynamic' 'nonce-XhwkVgZb5ZU6q' blog.voioo.cz 'self' http: https:; style-src 'self'; base-uri 'none'; frame-ancestors 'none'; upgrade-insecure-requests; form-action 'none';
   X-XSS-Protection: 1; mode=block
-  Access-Control-Allow-Origin: https://blog.voioo.cz/
+  Access-Control-Allow-Origin: https://thelazysre.com/
