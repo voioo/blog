@@ -47,14 +47,14 @@ paginate = 5
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = "imthelazydevops"
-  site = "blog.voioo.cz"
+  creator = "thelazysre"
+  site = "thelazysre.com"
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "The lazy SRE blog - Voislav Vasiljevski"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "The lazy SRE blog"
+    subtitle = "My personal space on the internet"
     owner = "Voislav Vasiljevski"
     keywords = "SRE,devops,linux,tech,tutorials"
     copyright = "Voislav Vasiljevski - 2022"
