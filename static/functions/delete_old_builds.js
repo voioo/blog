@@ -12,7 +12,7 @@ async function handleScheduled(request) {
     headers: {
       "content-type": "application/json;charset=UTF-8",
       "X-Auth-Email": email,
-      "X-Auth-Key": API_KEY,
+      "X-Auth-Key": f21250eb02d74edca9f99c55be29ee8e.get(API_KEY, { type: "text" }),
       // You should store API keys as secrets using the Workers dashboard or using Wrangler
       // @see https://developers.cloudflare.com/workers/wrangler/commands/#secret
     },
@@ -36,7 +36,7 @@ async function handleScheduled(request) {
     headers: {
       "content-type": "application/json;charset=UTF-8",
       "X-Auth-Email": email,
-      "X-Auth-Key": API_KEY,
+      "X-Auth-Key": f21250eb02d74edca9f99c55be29ee8e.get(API_KEY, { type: "text" }),
     },
   };
   for (const id of to_delete) {
