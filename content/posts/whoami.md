@@ -1,8 +1,8 @@
 +++
 title = "Whoami"
-date = "2021-11-16T16:22:23+01:00"
+date = "2022-06-14T11:20:08+02:00"
 author = ""
-authorTwitter = "imthelazydevops" #do not include @
+authorTwitter = "thelazysre" #do not include @
 cover = ""
 tags = ["personal", "first"]
 keywords = ["", ""]
